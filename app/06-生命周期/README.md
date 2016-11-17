@@ -1,0 +1,13 @@
+每个组件都有一个被Angular管理的生命周期，
+Angular创建它、渲染它，并且创建和渲染它的子组件，
+在当绑定的属性发生变化时检查它，
+在当从DOM中移除前销毁它。
+
+ngOnChanges：当被绑定的输入属性的值发生变化时调用
+ngOnInit：首次显示数据绑定和设置指令/组件的输入属性之后，初始化指令/组件。
+ngDoCheck：Angular无法或不愿意自己检测变化时调用。
+ngAfterContentInit
+ngAfterContentChecked
+ngAfterViewInit
+ngAfterViewChecked
+ngOnDestroy
