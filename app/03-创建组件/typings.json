@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "custom-typings": "file:./custom-typings.d.ts"
+  }
+}

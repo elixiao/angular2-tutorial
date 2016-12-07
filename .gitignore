@@ -3,3 +3,5 @@
 npm-debug.log
 app/**/*.js
 app/**/*.js.map
+!**/rxjs/*.js
+app/00-基础入门/**/*

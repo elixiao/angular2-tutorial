@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 @Component({
     selector: 'root',
     template: `
-        <config></config>
+        <poor></poor>
         <rich></rich>
     `
 })
