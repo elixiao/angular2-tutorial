@@ -11,4 +11,6 @@ enum A {
     vertical=<any> 'vertical'
 }
 
+console.log(DisplayPattern)
+console.log(DisplayPattern[DisplayPattern.horizontal])
 console.log(A)

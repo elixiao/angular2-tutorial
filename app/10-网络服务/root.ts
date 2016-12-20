@@ -22,5 +22,11 @@ export class RootComponent {
             console.log(data)
             this.users = data
         })
+        userService.search()
+            .subscribe(data=>{
+                console.log(data)
+            },error=>{
+                console.log(error)
+            })
     }
 }

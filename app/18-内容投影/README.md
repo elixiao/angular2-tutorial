@@ -1,0 +1,6 @@
+ContentChild是组件selector标签闭合之间的子组件
+ViewChild是组件模板当中的子组件
+两者都有复数形式，ContentChildren和ViewChildren
+
+ContentChild在父组件生命周期函数ngAfterContentInit之后可以获取到
+ViewChild在父组件生命周期函数ngAfterViewInit之后可以获取到
